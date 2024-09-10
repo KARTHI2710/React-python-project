@@ -1,5 +1,18 @@
 .modalcontainer{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.39);
+
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.modal{
+    margin-top: 5rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
 }
